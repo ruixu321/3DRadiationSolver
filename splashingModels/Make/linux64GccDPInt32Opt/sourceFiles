@@ -1,0 +1,4 @@
+SOURCE = \
+makeNewReactingParcelSurfaceFilmModels.C \
+makeNewReactingMultiphaseParcelSurfaceFilmModels.C \
+makeNewThermoParcelSurfaceFilmModels.C 

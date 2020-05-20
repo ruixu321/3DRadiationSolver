@@ -1,0 +1,24 @@
+# 1 "files"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "files"
+
+radiationModel/fvDOM/fvDOMBand.C
+radiationModel/radiativeIntensityRay/radiativeIntensityRayBand.C
+radiationModel/absorptionCoeffs/absorptionCoeffsJohansson.C
+radiationModel/tableModest/tableModest.C
+
+
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBand.C
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBandNew.C
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionSmithBand/wsggmAbsorptionEmissionSmithBand.C
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionJohanssonBand/wsggmAbsorptionEmissionJohanssonBand.C
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionCassolBand/wsggmAbsorptionEmissionCassolBand.C
+
+submodels/absorptionEmissionModel/boxAbsorptionEmissionNew/boxAbsorptionEmission.C
+
+
+
+derivedFvPatchFields/wideBandDiffusiveRadiation/wideBandDiffusiveRadiationBandMixedFvPatchScalarField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libbandedRadiationModelsWarwick

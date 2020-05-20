@@ -1,0 +1,5 @@
+makeNewReactingParcelSurfaceFilmModels.C
+makeNewReactingMultiphaseParcelSurfaceFilmModels.C
+makeNewThermoParcelSurfaceFilmModels.C
+
+LIB = $(FOAM_USER_LIBBIN)/libsplashingModels

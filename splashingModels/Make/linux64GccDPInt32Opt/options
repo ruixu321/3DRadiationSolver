@@ -1,0 +1,59 @@
+# 1 "Make/options"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 8 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 8 "<command-line>" 2
+# 1 "Make/options"
+DEV_PATH=./../../packages
+EXE_INC = -I$(DEV_PATH)/regionModels/surfaceFilmModels/lnInclude -I$(DEV_PATH)/lagrangian/intermediateNew/lnInclude -I$(LIB_SRC)/regionModels/regionModel/lnInclude -I$(LIB_SRC)/finiteVolume/lnInclude -I$(LIB_SRC)/meshTools/lnInclude -I$(LIB_SRC)/lagrangian/basic/lnInclude -I$(LIB_SRC)/lagrangian/distributionModels/lnInclude -I$(LIB_SRC)/thermophysicalModels/specie/lnInclude -I$(LIB_SRC)/thermophysicalModels/basic/lnInclude -I$(LIB_SRC)/thermophysicalModels/properties/liquidProperties/lnInclude -I$(LIB_SRC)/thermophysicalModels/properties/liquidMixtureProperties/lnInclude -I$(LIB_SRC)/thermophysicalModels/properties/solidProperties/lnInclude -I$(LIB_SRC)/thermophysicalModels/properties/solidMixtureProperties/lnInclude -I$(LIB_SRC)/thermophysicalModels/reactionThermo/lnInclude -I$(LIB_SRC)/thermophysicalModels/SLGThermo/lnInclude -I$(LIB_SRC)/thermophysicalModels/radiationModels/lnInclude -I$(LIB_SRC)/turbulenceModels -I$(LIB_SRC)/transportModels/compressible/lnInclude -I$(LIB_SRC)/dynamicFvMesh/lnInclude -I$(LIB_SRC)/sampling/lnInclude
+# 25 "Make/options"
+
+LIB_LIBS = -L$(FOAM_USER_LIBBIN) -llagrangianIntermediateFF -lsurfaceFilmModelsFF -lregionModels -lfiniteVolume -lmeshTools -llagrangian -ldistributionModels -lspecie -lliquidProperties -lliquidMixtureProperties -lsolidProperties -lsolidMixtureProperties -lreactionThermophysicalModels -lSLGThermo -lradiationModels -lincompressibleTransportModels -ldynamicFvMesh -lsampling
+# 46 "Make/options"
+

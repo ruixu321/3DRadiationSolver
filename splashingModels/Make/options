@@ -1,0 +1,46 @@
+DEV_PATH=./../../packages
+EXE_INC = \
+    /*-DFULLDEBUG -g -O0 \*/ \
+        -I$(DEV_PATH)/regionModels/surfaceFilmModels/lnInclude \
+        -I$(DEV_PATH)/lagrangian/intermediateNew/lnInclude \
+    \
+    -I$(LIB_SRC)/regionModels/regionModel/lnInclude \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude \
+    -I$(LIB_SRC)/lagrangian/basic/lnInclude \
+    -I$(LIB_SRC)/lagrangian/distributionModels/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/specie/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/basic/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/properties/liquidProperties/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/properties/liquidMixtureProperties/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/properties/solidProperties/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/properties/solidMixtureProperties/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/reactionThermo/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/SLGThermo/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/radiationModels/lnInclude \
+    -I$(LIB_SRC)/turbulenceModels \
+    -I$(LIB_SRC)/transportModels/compressible/lnInclude \
+    -I$(LIB_SRC)/dynamicFvMesh/lnInclude \
+    -I$(LIB_SRC)/sampling/lnInclude
+
+LIB_LIBS = \
+    -L$(FOAM_USER_LIBBIN) \
+        -llagrangianIntermediateFF \
+        -lsurfaceFilmModelsFF \
+    -lregionModels \
+    -lfiniteVolume \
+    -lmeshTools \
+    -llagrangian \
+    -ldistributionModels \
+    -lspecie \
+    -lliquidProperties \
+    -lliquidMixtureProperties \
+    -lsolidProperties \
+    -lsolidMixtureProperties \
+    -lreactionThermophysicalModels \
+    -lSLGThermo \
+    -lradiationModels \
+    -lincompressibleTransportModels \
+    -ldynamicFvMesh \
+    -lsampling
+

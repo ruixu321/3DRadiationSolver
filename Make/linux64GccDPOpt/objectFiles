@@ -1,0 +1,12 @@
+OBJECTS = \
+$(OBJECTS_DIR)/fvDOMBand.o\
+$(OBJECTS_DIR)/radiativeIntensityRayBand.o\
+$(OBJECTS_DIR)/absorptionCoeffsJohansson.o\
+$(OBJECTS_DIR)/tableModest.o\
+$(OBJECTS_DIR)/absorptionEmissionModelBand.o\
+$(OBJECTS_DIR)/absorptionEmissionModelBandNew.o\
+$(OBJECTS_DIR)/wsggmAbsorptionEmissionSmithBand.o\
+$(OBJECTS_DIR)/wsggmAbsorptionEmissionJohanssonBand.o\
+$(OBJECTS_DIR)/wsggmAbsorptionEmissionCassolBand.o\
+$(OBJECTS_DIR)/boxAbsorptionEmission.o\
+$(OBJECTS_DIR)/wideBandDiffusiveRadiationBandMixedFvPatchScalarField.o

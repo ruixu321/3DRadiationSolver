@@ -1,0 +1,10 @@
+SOURCE = \
+radiationModel/fvDOMBand/fvDOMBand.C \
+radiationModel/radiativeIntensityRay/radiativeIntensityRayBand.C \
+radiationModel/absorptionCoeffs/absorptionCoeffsJohansson.C \
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBand.C \
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBandNew.C \
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionSmithBand/wsggmAbsorptionEmissionSmithBand.C \
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionJohanssonBand/wsggmAbsorptionEmissionJohanssonBand.C \
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionCassolBand/wsggmAbsorptionEmissionCassolBand.C \
+derivedFvPatchFields/wideBandDiffusiveRadiationWSGG/wideBandDiffusiveRadiationWSGGMixedFvPatchScalarField.C 

@@ -1,0 +1,12 @@
+LOCAL_OBJECTS = \
+fvDOMBand.o\
+radiativeIntensityRayBand.o\
+absorptionCoeffsJohansson.o\
+tableModest.o\
+absorptionEmissionModelBand.o\
+absorptionEmissionModelBandNew.o\
+wsggmAbsorptionEmissionSmithBand.o\
+wsggmAbsorptionEmissionJohanssonBand.o\
+wsggmAbsorptionEmissionCassolBand.o\
+boxAbsorptionEmission.o\
+wideBandDiffusiveRadiationBandMixedFvPatchScalarField.o
